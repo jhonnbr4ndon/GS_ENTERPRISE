@@ -10,7 +10,7 @@ public class MedicoMapper {
         Medico medico = new Medico();
         medico.setNome(medicoDTO.getNome());
         medico.setCpf(medicoDTO.getCpf());
-        medico.setData(medicoDTO.getData());
+        medico.setData_nascimento(medicoDTO.getData_nascimento());
         medico.setCep(medicoDTO.getCep());
         medico.setEspecialidade(medicoDTO.getEspecialidade());
         return medico;
@@ -20,7 +20,7 @@ public class MedicoMapper {
         MedicoDTO medicoDTO = new MedicoDTO();
         medicoDTO.setNome(entity.getNome());
         medicoDTO.setCpf(entity.getCpf());
-        medicoDTO.setData(entity.getData());
+        medicoDTO.setData_nascimento(entity.getData_nascimento());
         medicoDTO.setCep(entity.getCep());
         medicoDTO.setEspecialidade(entity.getEspecialidade());
         return  medicoDTO;

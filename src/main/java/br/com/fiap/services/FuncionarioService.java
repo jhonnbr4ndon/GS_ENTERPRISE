@@ -34,7 +34,7 @@ public class FuncionarioService {
 
         buscarFuncionario.setNome(funcionario.getNome());
         buscarFuncionario.setCpf(funcionario.getCpf());
-        buscarFuncionario.setData(funcionario.getData());
+        buscarFuncionario.setData_nascimento(funcionario.getData_nascimento());
         buscarFuncionario.setCep(funcionario.getCep());
 
         return buscarFuncionario;

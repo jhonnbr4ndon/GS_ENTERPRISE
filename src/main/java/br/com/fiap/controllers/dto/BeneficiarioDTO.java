@@ -18,7 +18,7 @@ public class BeneficiarioDTO {
     private String cpf;
 
     @NotNull
-    private Date data;
+    private Date data_nascimento;
 
     @NotNull
     @Min(1)
@@ -51,12 +51,12 @@ public class BeneficiarioDTO {
         this.cpf = cpf;
     }
 
-    public Date getData() {
-        return data;
+    public Date getData_nascimento() {
+        return data_nascimento;
     }
 
-    public void setData(Date data) {
-        this.data = data;
+    public void setData_nascimento(Date data_nascimento) {
+        this.data_nascimento = data_nascimento;
     }
 
     public Integer getCep() {

@@ -35,7 +35,7 @@ public class BeneficiarioService {
         buscarBeneficiario.setNome(beneficiario.getNome());
         buscarBeneficiario.setEmail(beneficiario.getEmail());
         buscarBeneficiario.setCpf(beneficiario.getCpf());
-        buscarBeneficiario.setData(beneficiario.getData());
+        buscarBeneficiario.setData_nascimento(beneficiario.getData_nascimento());
         buscarBeneficiario.setCep(beneficiario.getCep());
         buscarBeneficiario.setSenha(beneficiario.getSenha());
 

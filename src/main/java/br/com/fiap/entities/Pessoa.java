@@ -1,28 +1,16 @@
-package br.com.fiap.controllers.dto;
+package br.com.fiap.entities;
 
-import jakarta.validation.constraints.Min;
-import jakarta.validation.constraints.NotNull;
+import jakarta.persistence.MappedSuperclass;
 
 import java.sql.Date;
 
-public class MedicoDTO {
+@MappedSuperclass
+public abstract class Pessoa {
 
-    @NotNull
     private String nome;
-
-    @NotNull
-    @Min(1)
     private String cpf;
-
-    @NotNull
     private Date data_nascimento;
-
-    @NotNull
-    @Min(1)
     private Integer cep;
-
-    @NotNull
-    private String especialidade;
 
     public String getNome() {
         return nome;
@@ -54,13 +42,5 @@ public class MedicoDTO {
 
     public void setCep(Integer cep) {
         this.cep = cep;
-    }
-
-    public String getEspecialidade() {
-        return especialidade;
-    }
-
-    public void setEspecialidade(String especialidade) {
-        this.especialidade = especialidade;
     }
 }

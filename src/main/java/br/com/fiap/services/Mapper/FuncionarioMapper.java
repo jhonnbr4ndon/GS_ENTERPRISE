@@ -9,7 +9,7 @@ public class FuncionarioMapper {
         Funcionario funcionario = new Funcionario();
         funcionario.setNome(funcionarioDTO.getNome());
         funcionario.setCpf(funcionarioDTO.getCpf());
-        funcionario.setData(funcionarioDTO.getData());
+        funcionario.setData_nascimento(funcionarioDTO.getData_nascimento());
         funcionario.setCep(funcionarioDTO.getCep());
         return funcionario;
     }
@@ -18,7 +18,7 @@ public class FuncionarioMapper {
         FuncionarioDTO funcionarioDTO = new FuncionarioDTO();
         funcionarioDTO.setNome(entity.getNome());
         funcionarioDTO.setCpf(entity.getCpf());
-        funcionarioDTO.setData(entity.getData());
+        funcionarioDTO.setData_nascimento(entity.getData_nascimento());
         funcionarioDTO.setCep(entity.getCep());
         return  funcionarioDTO;
     }

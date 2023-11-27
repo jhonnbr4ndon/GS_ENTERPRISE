@@ -10,7 +10,7 @@ public class BeneficiarioMapper {
         beneficiario.setNome(beneficiarioDTO.getNome());
         beneficiario.setEmail(beneficiarioDTO.getEmail());
         beneficiario.setCpf(beneficiarioDTO.getCpf());
-        beneficiario.setData(beneficiarioDTO.getData());
+        beneficiario.setData_nascimento(beneficiarioDTO.getData_nascimento());
         beneficiario.setCep(beneficiarioDTO.getCep());
         beneficiario.setSenha(beneficiarioDTO.getSenha());
         return beneficiario;
@@ -21,7 +21,7 @@ public class BeneficiarioMapper {
         beneficiarioDTO.setNome(entity.getNome());
         beneficiarioDTO.setEmail(entity.getEmail());
         beneficiarioDTO.setCpf(entity.getCpf());
-        beneficiarioDTO.setData(entity.getData());
+        beneficiarioDTO.setData_nascimento(entity.getData_nascimento());
         beneficiarioDTO.setCep(entity.getCep());
         beneficiarioDTO.setSenha(entity.getSenha());
         return  beneficiarioDTO;

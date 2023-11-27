@@ -34,7 +34,7 @@ public class MedicoService {
 
         buscarMedico.setNome(medico.getNome());
         buscarMedico.setCpf(medico.getCpf());
-        buscarMedico.setData(medico.getData());
+        buscarMedico.setData_nascimento(medico.getData_nascimento());
         buscarMedico.setCep(medico.getCep());
 
         return buscarMedico;
