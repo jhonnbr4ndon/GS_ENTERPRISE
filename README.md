@@ -68,5 +68,11 @@ Para o ReactNative: https://www.youtube.com/watch?v=FWwKjxSgLl8&list=PLQWFhX-gwJ
    spring.jpa.show-sql=true
    spring.jpa.hibernate.ddl-auto=update
 
+### Testes da Aplicação 
+
+1. Inicializar o projeto no **Main.java**
+2. **Abrir esse site** http://localhost:8080/swagger-ui/index.html#/
+3. Começar a implementar dados no seu banco de dados com swager
+
 
 
