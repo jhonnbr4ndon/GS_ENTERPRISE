@@ -33,9 +33,9 @@ A solução propõe resolver a complexidade na gestão de saúde, facilitando o 
 
 Para o ReactNative: https://www.youtube.com/watch?v=FWwKjxSgLl8&list=PLQWFhX-gwJbmtZY4mcRE-k7hL9DigcGS-&ab_channel=PradipDebnath
 
-## Diagramas
+# Diagramas
 
-# Diagrama de classe
+### Diagrama de classe
 
 ![EnterpriseApplicationV2](https://github.com/jhonnbr4ndon/GS_ENTERPRISE/assets/112666523/954a14d8-eb86-4ea5-ba70-4bfab7f8d973)
 
