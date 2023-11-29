@@ -45,4 +45,28 @@ Para o ReactNative: https://www.youtube.com/watch?v=FWwKjxSgLl8&list=PLQWFhX-gwJ
 
 ![image](https://github.com/jhonnbr4ndon/GS_ENTERPRISE/assets/112666523/ba6a4924-60f9-4ffc-897c-c6611f6d72d6)
 
+# GS_ENTERPRISEAPI
+
+## Instruções para Rodar a Aplicação
+
+### Requisitos
+- **Java Development Kit (JDK)**: Este projeto requer Java 17. Você pode baixar a versão mais recente do JDK no [site oficial do OpenJDK](https://adoptopenjdk.net/).
+- **IntelliJ IDEA**: Certifique-se de ter o IntelliJ IDEA instalado e configurado no seu computador. Se ainda não tiver, você pode baixá-lo no [site oficial da JetBrains](https://www.jetbrains.com/idea/).
+
+### Configuração do Ambiente
+1. **Banco de Dados**: Configure as propriedades do banco de dados no arquivo `src/main/resources/application.properties`. Certifique-se de criar o esquema do banco de dados antes de executar o aplicativo.
+
+   Exemplo `application.properties`:
+   ```properties
+   # Configurações do banco de dados
+   spring.datasource.url=jdbc:oracle:thin:@localhost:1521:seuBanco
+   spring.datasource.username=seuUsuario
+   spring.datasource.password=suaSenha
+   spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+   # Configurações do Hibernate
+   spring.jpa.show-sql=true
+   spring.jpa.hibernate.ddl-auto=update
+
+
 
